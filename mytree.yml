@@ -1,0 +1,10 @@
+mytree
+---
+-hosts: all
+ tasks:
+ - name: install tree on my nodes
+    apt:
+      name: tree
+      state: started
+
+      
