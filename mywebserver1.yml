@@ -7,3 +7,9 @@ mywebserver.yml
      apt:
        name: apache2
        state: present
+
+
+  -name: I want to install webserver
+   service:
+     name: apache2
+     statue: started
